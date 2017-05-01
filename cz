@@ -258,18 +258,18 @@ xkb_symbols "programmer" {
     include "us(basic)"
     name[Group1]= "Czechia - layout CZ FOR PROGRAMMERS";
 
-    key <AE01>  { [      plus,     exclam,            1,   dead_tilde ] };
-    key <AE02>  { [    ecaron,         at,            2,   dead_caron ] };
-    key <AE03>  { [    scaron, numbersign,            3, dead_circumflex ] };
-    key <AE04>  { [    ccaron,     dollar,            4,   dead_breve ] };
-    key <AE05>  { [    rcaron,    percent,            5, dead_abovering]};
-    key <AE06>  { [    zcaron,asciicircum,            6,  dead_ogonek ] };
-    key <AE07>  { [    yacute,  ampersand,            7,   dead_grave ] };
-    key <AE08>  { [    aacute,   asterisk,            8, dead_abovedot] };
-    key <AE09>  { [    iacute,  parenleft,            9,   dead_acute ] };
-    key <AE10>  { [    eacute, parenright,            0, dead_doubleacute ] };
-    key <AE11>  { [     minus, underscore,   dead_acute, NoSymbol]};
-    key <AE12>  { [     equal,	     plus,   dead_caron, NoSymbol ] };
+    key <AE01>  { [         1,     exclam,        plus,       dead_tilde ] };
+    key <AE02>  { [         2,         at,      ecaron,       dead_caron ] };
+    key <AE03>  { [         3, numbersign,      scaron,  dead_circumflex ] };
+    key <AE04>  { [         4,     dollar,      ccaron,       dead_breve ] };
+    key <AE05>  { [         5,    percent,      rcaron,    dead_abovering] };
+    key <AE06>  { [         6,asciicircum,      zcaron,      dead_ogonek ] };
+    key <AE07>  { [         7,  ampersand,      yacute,       dead_grave ] };
+    key <AE08>  { [         8,   asterisk,      aacute,    dead_abovedot ] };
+    key <AE09>  { [         9,  parenleft,      iacute,       dead_acute ] };
+    key <AE10>  { [         0, parenright,      eacute, dead_doubleacute ] };
+    key <AE11>  { [     minus, underscore,  dead_acute,         NoSymbol ] };
+    key <AE12>  { [     equal,	     plus,  dead_caron,         NoSymbol ] };
 
     key <AD01>  { [         q,          Q,    backslash,     NoSymbol ] };
     key <AD02>  { [         w,          W,          bar,     Nosymbol ] };
