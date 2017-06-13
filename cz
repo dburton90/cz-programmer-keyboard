@@ -303,4 +303,4 @@ xkb_symbols "programmer" {
     key <AB05>  { [         b,          B,    braceleft,     NoSymbol ] };
     key <AB06>  { [         n,          N,   braceright,     NoSymbol ] };
     key <AB07>  { [         m,          M,  asciicircum,     NoSymbol ] };
-};
+;
