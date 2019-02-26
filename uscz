@@ -1,0 +1,55 @@
+default  partial alphanumeric_keys
+
+xkb_symbols "basic" {
+
+    // 2016 by Daniel Barton
+    include "cz(basic)"
+    include "us(basic)"
+    name[Group1]= "Czechia - layout CZ FOR PROGRAMMERS";
+
+    key <AE01>  { [         1,     exclam,        plus,       dead_tilde ] };
+    key <AE02>  { [         2,         at,      ecaron,       dead_caron ] };
+    key <AE03>  { [         3, numbersign,      scaron,  dead_circumflex ] };
+    key <AE04>  { [         4,     dollar,      ccaron,       dead_breve ] };
+    key <AE05>  { [         5,    percent,      rcaron,    dead_abovering] };
+    key <AE06>  { [         6,asciicircum,      zcaron,      dead_ogonek ] };
+    key <AE07>  { [         7,  ampersand,      yacute,       dead_grave ] };
+    key <AE08>  { [         8,   asterisk,      aacute,    dead_abovedot ] };
+    key <AE09>  { [         9,  parenleft,      iacute,       dead_acute ] };
+    key <AE10>  { [         0, parenright,      eacute, dead_doubleacute ] };
+    key <AE11>  { [     minus, underscore,  dead_acute,         NoSymbol ] };
+    key <AE12>  { [     equal,	     plus,  dead_caron,         NoSymbol ] };
+
+    key <AD01>  { [         q,          Q,    backslash,     NoSymbol ] };
+    key <AD02>  { [         w,          W,          bar,     Nosymbol ] };
+    key <AD03>  { [         e,          E,     EuroSign,     NoSymbol ] };
+    key <AD04>  { [         r,          R,     NoSymbol,     NoSymbol ] };
+    key <AD05>  { [         t,          T,     NoSymbol,     NoSymbol ] };
+    key <AD06>  { [         y,          Y,     NoSymbol,     NoSymbol ] };
+    key <AD07>  { [         u,          U,     NoSymbol,     NoSymbol ] };
+    key <AD08>  { [         i,          I,     NoSymbol,     NoSymbol ] };
+    key <AD09>  { [         o,          O,     NoSymbol,     NoSymbol ] };
+    key <AD10>  { [         p,          P,     NoSymbol,     NoSymbol ] };
+
+    key <AD11>  { [ bracketleft, braceleft,       uacute,    NoSymbol ] };
+
+    key <AC01>  { [         a,          A,   asciitilde,     NoSymbol ] };
+    key <AC02>  { [         s,          S,      dstroke,     NoSymbol ] };
+    key <AC03>  { [         d,          D,      Dstroke,     NoSymbol ] };
+    key <AC04>  { [         f,          F,  bracketleft,     NoSymbol ] };
+    key <AC05>  { [         g,          G, bracketright,     NoSymbol ] };
+    key <AC06>  { [         h,          H,        grave,     NoSymbol ] };
+    key <AC07>  { [         j,          J,   apostrophe,     NoSymbol ] };
+    key <AC08>  { [         k,          K,      lstroke,     NoSymbol ] };
+    key <AC09>  { [         l,          L,      Lstroke,     NoSymbol ] };
+
+    key <AC10>  { [ semicolon,      colon,        uring,     NoSymbol ] };
+
+    key <AB01>  { [         z,          Z,       degree,     NoSymbol ] };
+    key <AB02>  { [         x,          X,   numbersign,     Nosymbol ] };
+    key <AB03>  { [         c,          C,    ampersand,     NoSymbol ] };
+    key <AB04>  { [         v,          V,           at,     NoSymbol ] };
+    key <AB05>  { [         b,          B,    braceleft,     NoSymbol ] };
+    key <AB06>  { [         n,          N,   braceright,     NoSymbol ] };
+    key <AB07>  { [         m,          M,  asciicircum,     NoSymbol ] };
+};
