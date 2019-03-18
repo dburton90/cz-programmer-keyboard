@@ -1,8 +1,8 @@
 # CZ Programmer Keyboard
 Speciální znaky a čísla jsou stejné jako na anglické klávesnici.
 
-- Čárka nad písmeny je dostupná přes AltGr na klávese s - (vpravo od 0)
-- Háček je dostupný přes AltGr na kláavese s =
+- Čárka nad písmeny je dostupná přes AltGr na klávese s mínusem (pomlčkou) (vpravo od klávesy 0)
+- Háček je dostupný přes AltGr na kláavese s rovnítkem (tedy stejně jako na české klávesnici)
 - ěščřžýáíé jsou dostupné přes AltGr na číslech
 - ĚŠČŘŽÝÁÍÉ josu dostupné přes AltGr + Shift
 - Klávesy ů/ú jsou dostupné na stejné klávese jako na české akorát přes AltGr
