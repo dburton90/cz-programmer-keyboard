@@ -29,12 +29,12 @@ sudo chown $SUDO_USER:$SUDO_USER /usr/share/X11/xkb/symbols/uscz
 ```
 (Možná bude nutné restartovat)
 
-Nastavení layoutu pomocí *setxkbmap* (nutno dát do nějakého init scriptu, který je volán během startu systému)
+Nastavení layoutu pomocí **setxkbmap** (nutno dát do nějakého init scriptu, který je volán během startu systému)
 
 ```bash
 setxkbmap -layout uscz -variant basic
 ```
-nebo pomocí *localectl* (localectl je komunikuje se systemd-localed a ulozi nastaveni klavesnice do /etc/...)
+nebo pomocí **localectl** (localectl je komunikuje se systemd-localed a ulozi nastaveni klavesnice do /etc/...)
 
 ```bash
 localectl set-x11-keymap uscz
