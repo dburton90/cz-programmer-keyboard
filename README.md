@@ -40,5 +40,5 @@ nebo pomocí *localectl* (localectl je komunikuje se systemd-localed a ulozi nas
 localectl set-x11-keymap uscz
 ```
 
-
+Další info
 https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration
