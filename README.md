@@ -6,6 +6,7 @@ Layout vychází z anglické klávesnice (us basic). Speciální znaky a čísla
 - ěščřžýáíé jsou dostupné přes AltGr na číslech
 - ĚŠČŘŽÝÁÍÉ josu dostupné přes AltGr + Shift
 - Klávesy ů/ú jsou dostupné na stejné klávese jako na české akorát přes AltGr
+- AltGr + <<PISMENO>> stejné jako na české klávesnici (AltGr + E = €, AltGr + V = @, AltGr + X = #, ...)
 
 
 ## Instalace
