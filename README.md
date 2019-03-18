@@ -1,5 +1,5 @@
 # CZ Programmer Keyboard
-Speciální znaky a čísla jsou stejné jako na anglické klávesnici.
+Layout vychází z anglické klávesnice (us basic). Speciální znaky a čísla jsou stejné jako na anglické klávesnici.
 
 - Čárka nad písmeny je dostupná přes AltGr na klávese s mínusem (pomlčkou) (vpravo od klávesy 0)
 - Háček je dostupný přes AltGr na kláavese s rovnítkem (tedy stejně jako na české klávesnici)
