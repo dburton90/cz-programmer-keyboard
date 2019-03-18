@@ -22,14 +22,15 @@ sudo chown $SUDO_USER:$SUDO_USER /usr/share/X11/xkb/symbols/uscz
 sudo chmod 644 /usr/share/X11/xkb/symbols/uscz
 ```
 
+## Nastavení
 (Možná bude nutné restartovat)
 
-Nastavení layoutu pomocí **setxkbmap** (nutno dát do nějakého init scriptu, který je volán po kazdem startu)
+- **setxkbmap** (nutno dát do nějakého init scriptu, který je volán po kazdem startu)
 
 ```bash
 setxkbmap -layout uscz -variant basic
 ```
-nebo pomocí **localectl** (localectl je komunikuje se systemd-localed a ulozi nastaveni klavesnice do /etc/..., takze neni potreba to volat po kazdem startu)
+- nebo **localectl** (localectl je komunikuje se systemd-localed a ulozi nastaveni klavesnice do /etc/..., takze neni potreba to volat po kazdem startu)
 
 ```bash
 localectl set-x11-keymap uscz
