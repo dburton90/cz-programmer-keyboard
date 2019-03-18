@@ -38,4 +38,5 @@ localectl set-x11-keymap uscz
 ```
 
 Další info
-https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration
+- nastaveni: https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration
+- tvorba layoutu: https://wiki.archlinux.org/index.php/X_keyboard_extension
