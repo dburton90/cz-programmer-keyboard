@@ -10,10 +10,10 @@ Speciální znaky a čísla jsou stejné jako na anglické klávesnici.
 
 ## Instalace
 
-Stažení souboru do /tmp.
-Zkopírování souboru do adresare s layouty.
-Nastavení vlastníka souboru, aby nebyl později **přepsán/smazán při upgradu/updatu systému**.
-A nastavení práv.
+- Stažení souboru do /tmp.
+- Zkopírování souboru do adresare s layouty.
+- Nastavení vlastníka souboru, aby nebyl později **přepsán/smazán při upgradu/updatu systému**.
+- A nastavení práv.
 
 ```bash
 curl https://raw.githubusercontent.com/dburton90/cz-programmer-keyboard/master/uscz > /tmp/uscz
