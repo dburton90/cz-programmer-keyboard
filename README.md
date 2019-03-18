@@ -6,5 +6,7 @@ Speciální znaky a čísla jsou stejné jako na anglické klávesnici.
 - ěščřžýáíé jsou dostupné přes AltGr na číslech.
 - Klávesy ů/ú jsou dostupné na stejné klávese jako na české akorát přes AltGr.
 
-vlozit do /usr/share/X11/xkb/symbols
-
+```bash
+cp uscz /usr/share/X11/xkb/symbols/
+chown $USER:$USER /usr/share/X11/xkb/symbols/uscz
+```
